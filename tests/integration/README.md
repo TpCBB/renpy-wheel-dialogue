@@ -1,0 +1,7 @@
+# Synthetic runtime fixture
+
+This original fixture is a small Ren'Py game for integration testing the wheel patch. It contains no game assets or engine files. Use only inside a disposable, separate engine copy and separate save directory. Copy `script.rpy` and the patch into the disposable `game/` directory. Configure the launcher's save paths and `APPDATA` / `LOCALAPPDATA` to disposable locations before launching. Never run the fixture inside a user's installed game.
+
+The fixture posts pygame `MOUSEBUTTONDOWN` and `MOUSEBUTTONUP` events with buttons 4/5, plus pygame key events, to the engine queue. This tests actual engine input handling, but it is **not** an operating-system mouse-wheel event or physical desktop input. It appends a chronological trace to `events.txt` in the disposable engine's base directory. Start with a fresh isolated save location: text speed is deliberately set to one character per second.
+
+Expected trace: two down-wheel events for each of three slow dialogue lines; first completes text and second advances. An extra down-wheel event at the menu must not select anything. Down/Enter selects A; up-wheel returns to the menu; down-wheel remains stopped; Down/Down/Enter selects B. The fixture uses timed events, so a slow engine startup or lost focus can invalidate the trace. Verify actual sequence rather than treating process exit as success. This fixture does not test save/load, scrollable viewports, nonstandard modal screens, or OS-level input.

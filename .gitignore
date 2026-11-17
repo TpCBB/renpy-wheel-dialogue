@@ -1,0 +1,12 @@
+# Generated Ren'Py and Python artifacts
+*.rpyc
+*.pyc
+__pycache__/
+cache/
+saves/
+log.txt
+traceback.txt
+errors.txt
+# Local engine installations and private integration runs
+.local-tests/
+dist/
