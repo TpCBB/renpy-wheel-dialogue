@@ -12,11 +12,13 @@
 </p>
 
 <p align="center">
-  <strong><a href="../../releases/latest">下载补丁 ↗</a></strong> ·
+  <strong><a href="https://github.com/TpCBB/renpy-wheel-dialogue/releases/latest">下载补丁 ↗</a></strong> ·
   <a href="#使用方法">使用方法</a> ·
   <a href="#功能">功能介绍</a> ·
   <a href="CHANGELOG.md">更新记录</a>
 </p>
+
+<p align="center">简体中文 · <a href="README.en.md">English</a></p>
 
 ---
 
