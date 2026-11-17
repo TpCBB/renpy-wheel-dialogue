@@ -18,7 +18,7 @@
   <a href="https://github.com/TpCBB/renpy-wheel-dialogue/releases">Releases</a>
 </p>
 
-<p align="center"><a href="README.md">简体中文</a> · English</p>
+<p align="center"><a href="https://github.com/TpCBB/renpy-wheel-dialogue/blob/main/README.md?plain=0">简体中文</a> · English</p>
 
 ---
 

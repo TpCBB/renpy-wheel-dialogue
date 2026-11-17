@@ -18,7 +18,7 @@
   <a href="CHANGELOG.md">更新记录</a>
 </p>
 
-<p align="center">简体中文 · <a href="README.en.md">English</a></p>
+<p align="center">简体中文 · <a href="https://github.com/TpCBB/renpy-wheel-dialogue/blob/main/README.en.md?plain=0">English</a></p>
 
 ---
 
